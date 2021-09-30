@@ -1,0 +1,542 @@
+/* **************************************************** BASIC SETTING ************************************************ */
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-style {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  line-height: 20px;
+  box-sizing: border-box;
+  clear: both;
+  display: table;
+  content: " ";
+
+}
+
+/* ******************************************************* TARIF *********************************************** */
+
+.centertitre {
+  text-align: center;
+}
+
+.swiper {
+  width: 60%;
+  height: 40%;
+  margin: 100px auto;
+  box-shadow: 1px -1px 8px 0px black;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fichetarif {
+  margin: 100px auto;
+  background: #515151;
+  padding: 25px;
+  display: grid;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 68, 0);
+  text-align: center;
+  grid-template-columns: 33% 33% 33%;
+
+}
+
+.prixtarif {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.listdeprestat {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 100;
+  text-transform:initial;
+}
+
+/* ******************************************************* Equipement ************************************************************* */
+.img {
+  box-shadow: 2px 4px 12px 3px #1f2653;
+}
+
+.ombrage {
+  text-shadow: 2px 2px 2px #1f2653;
+}
+
+.logogif {
+  float: left;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.lead {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.buttonstuff {
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 50px;
+  padding: 13px 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.4rem !important;
+  cursor: pointer;
+  font: 700 0.75rem 'Source Sans pro';
+  transition: all 0.3s ease-in-out;
+  margin: 20px auto;
+}
+
+.buttonstuff:hover {
+  border: 1px solid skyblue;
+  color: skyblue;
+}
+
+#equipement {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#equipement p {
+  font-size: 1.8rem;
+}
+
+.descriptif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+
+#stuff {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#stuff .img {
+  background: url(/img/NouveauDronesDimages/M300RTK/fhg.jpg) center/cover;
+}
+
+/* ********************************************************* CONTENU SERVICE ****************************************************** */
+/************* SECTION 1 ***************/
+#logo-nav {
+  height: 185px;
+  width: 180px;
+}
+
+.sectionmavic {
+  display: grid;
+  grid-template-columns: 37% 63%;
+  min-height: 400px;
+}
+
+.sectionmavic .img {
+  background: url(/img/NouveauDronesDimages/Mavic2Pro/s1-bg-bfbfc45101d217f96261561ac00f19b9.jpg) center/cover;
+}
+
+/* ************** SECTION 2 *************** */
+
+.sectionfantome {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  min-height: 400px;
+}
+
+.sectionfantome .img {
+  background: url(/img/NouveauDronesDimages/Fantome4Pro/dji-phantom-4-pro-test.jpg) center/cover;
+}
+
+
+
+/* ************************************** FORMULAIRE ******************************* */
+footer {
+  background: url(./media/footer.jpg) 50% 0% no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 160px 50px 5 50px;
+}
+
+footer h3 {
+  padding: 60px 0 60px 0;
+  font-size: 2.5em;
+}
+
+.footer-icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+}
+
+.network {
+  font-size: 4em;
+  border: 1px solid #b3aca7;
+  padding: 30px 45px;
+  color: #726659;
+  z-index: -1 !important;
+  border-radius: 50%;
+}
+
+.network:hover,
+textarea:hover,
+input:hover,
+.form-button:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-container {
+  padding-top: 20px;
+}
+
+#reused_form {
+  position: relative;
+  margin: 50px auto;
+}
+
+input {
+  font-size: 0.85em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+}
+
+textarea {
+  width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  resize: none !important;
+}
+
+input::placeholder,
+textarea::placeholder,
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #aca49c;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder,
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: #e2dedb;
+}
+
+.form-button {
+  background: transparent;
+  border: solid 1px #b3aca7;
+  padding: 20px 75px;
+  margin: 14px 0 -20px 0;
+}
+
+.form-container h4 {
+  font-size: 2em;
+}
+
+#error_message {
+  color: red;
+  border: 1px solid red;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px 15px 8px 15px;
+  box-shadow: 0 0 5px red;
+}
+
+#success_message {
+  color: green;
+  border: 1px solid green;
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 50px;
+  box-shadow: 0 0 5px green;
+}
+
+footer p {
+  font-size: 0.9em;
+  letter-spacing: 0.3em;
+}
+
+/* ************************************* TARIF ************************************* */
+
+
+
+/* ***************************************** NOS PARTENAIRES ********************************* */
+#partenaire {
+  width: 80%;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.logomfr {
+  background: url(/NosPartenaires/MFR.png) center/cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.logoaxa {
+  background: url(/NosPartenaires/Axa.png) center/cover;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+}
+
+.logohuissier {
+  background: url(/NosPartenaires/Huisser.jpg) center/cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.logoclub {
+  background: url(/NosPartenaires/Club.jpg) center/cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+
+/* ********************************** MEDIA QUERIES *************************** */
+@media(max-width:767px) {
+  #partenaire {
+    width: 80%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logomfr {
+    background: url(/NosPartenaires/MFR.png) center/cover;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
+
+  .logoaxa {
+    background: url(/NosPartenaires/Axa.png) center/cover;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+  }
+
+  .logohuissier {
+    background: url(/NosPartenaires/Huisser.jpg) center/cover;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
+
+  .logoclub {
+    background: url(/NosPartenaires/Club.jpg) center/cover;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
+}
+
+@media(max-width:910px) {
+  #partenaire {
+    width: 80%;
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logomfr {
+    background: url(/NosPartenaires/MFR.png) center/cover;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+
+  .logoaxa {
+    background: url(/NosPartenaires/Axa.png) center/cover;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+  }
+
+  .logohuissier {
+    background: url(/NosPartenaires/Huisser.jpg) center/cover;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+
+  .logoclub {
+    background: url(/NosPartenaires/Club.jpg) center/cover;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+}
+
+@media(max-width:270px) {
+  #partenaire {
+    width: 80%;
+    height: 5vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logomfr {
+    background: url(/NosPartenaires/MFR.png) center/cover;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+  }
+
+  .logoaxa {
+    background: url(/NosPartenaires/Axa.png) center/cover;
+    height: 15px;
+    width: 15px;
+    margin: auto;
+  }
+
+  .logohuissier {
+    background: url(/NosPartenaires/Huisser.jpg) center/cover;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+  }
+
+  .logoclub {
+    background: url(/NosPartenaires/Club.jpg) center/cover;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #prestations {
+    height: 1700px;
+  }
+
+  #stuff {
+    display: block;
+  }
+
+  #stuff {
+    height: auto;
+  }
+
+  #stuff .img {
+    height: 50vh;
+    margin-top: 30px;
+  }
+
+  .sectionfantome {
+    display: block;
+  }
+
+  .sectionfantome {
+    height: auto;
+  }
+
+  .sectionfantome .img {
+    height: 50vh;
+    margin-top: 30px;
+  }
+
+  .sectionmavic {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .sectionmavic {
+    height: auto;
+  }
+
+  .sectionmavic .img {
+    height: 50vh;
+    margin-top: 30px;
+    order: 1;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  footer ul {
+    min-width: 200px;
+  }
+
+  footer a {
+    width: 24px;
+    height: 24px;
+  }
+
+  footer i {
+    font-size: 0.7rem;
+  }
+
+  .fichetarif {
+    display: block;
+  }
+}
+
+
